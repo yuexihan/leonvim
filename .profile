@@ -22,5 +22,6 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 alias tf='ssh -p 25 tensorflow@202.120.36.28'
-echo "$(ssh-agent -s)"
+
+eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
