@@ -12,6 +12,7 @@ set background=light
 map <F2> :NERDTreeToggle<CR>
 map <F3> :set hlsearch!<CR>
 map <F4> <c-w>w
+nnoremap <tab> <c-w>w
 let NERDTreeShowHidden=1
 let NERDTreeShowLineNumbers=1
 let NERDTreeAutoCenter=1
