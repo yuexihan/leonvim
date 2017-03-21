@@ -1,11 +1,14 @@
+filetype indent plugin on
 set number
 set wrap
 set matchtime=5
-set tabstop=4
 syntax on
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set softtabstop=4
 set background=dark
 set ruler
-set shiftwidth=4
 set shiftround
 set background=light
 "set ai
